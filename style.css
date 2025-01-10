@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -348,4 +349,132 @@ nav {
     font-size: 13px;
   }
 
+}
+
+
+
+.work{
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 9px;
+  margin: 20px ;
+  
+}
+span{
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.for-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+footer{
+  Width:100%;
+  Height:276px;
+  background-color: #241400;
+  
+  .FootLogo{
+  display: flex;
+  gap: 10px;
+  color: #fff;
+  height: 45px;
+
+  h4 {
+    border-bottom: 1px solid;
+  }
+  }
+}
+
+
+.Foot-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 0;
+}
+
+
+.popularity{
+  color: #fff;
+  h2{
+    font-weight: 400;
+    font-size: 18px;
+
+    Line-height:35.31px;
+  }
+
+  h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25.5px;
+  }
+}
+
+.info{
+  color: #fff;
+  h2{
+    font-weight: 400;
+    font-size: 18px;
+    Line-height:35.31px;
+  }
+
+  h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25.5px;
+  }
+}
+
+.help{
+  color: #fff;
+  h2{
+    font-weight: 400;
+    font-size: 18px;
+    Line-height:35.31px;
+  }
+
+  h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25.5px;
+  }
+}
+
+.other{
+
+  p{
+    color: #fff;
+    padding-bottom: 9.33px;
+  }
+
+  button{
+    color: #e16a00;
+    padding: 6px 17px 6px 17px;
+    background-color: #e1690000;
+    border-color: #e16a00;
+  }
 }
